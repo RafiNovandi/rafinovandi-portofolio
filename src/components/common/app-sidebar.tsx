@@ -19,7 +19,7 @@ export default function AppSidebar({ logo = "Portfolio." }) {
   const pathname = usePathname();
 
   return (
-    <Sidebar>
+    <Sidebar className="rounded-xl overflow-hidden">
       <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem className="flex items-center justify-between gap-3 pt-5">
