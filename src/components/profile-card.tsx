@@ -55,7 +55,6 @@ export default function ProfileCard({
                   duration-300
                   hover:scale-[1.10]
                   hover:shadow-[-13px_20px_60px_0_rgba(0,0,0,0.1)]
-                  cursor-pointer
                 "
         >
           <img src={imageIcon.src} alt="Image Icon" />
@@ -79,6 +78,7 @@ export default function ProfileCard({
                   transition-all
                   duration-300
                   hover:scale-[1.10]
+                  hover:shadow-[-13px_20px_60px_0_rgba(0,0,0,0.1)]
                 "
         >
           <img

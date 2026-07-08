@@ -20,7 +20,7 @@ export default function AppSidebar({ logo = "Portfolio." }) {
 
   return (
     <Sidebar className="rounded-xl overflow-hidden">
-      <SidebarHeader>
+      <SidebarHeader className="pl-3 pr-3 pt-0 pb-0">
         <SidebarMenu>
           <SidebarMenuItem className="flex items-center justify-between gap-3 pt-5">
             <a className="flex items-center gap-2 font-bold text-[17px] tracking-[-0.3px] text-foreground no-underline">
@@ -37,7 +37,7 @@ export default function AppSidebar({ logo = "Portfolio." }) {
         </SidebarMenu>
       </SidebarHeader>
       <SidebarContent>
-        <SidebarGroup>
+        <SidebarGroup className="p-3">
           <SidebarGroupContent className="flex flex-col gap-2">
             <SidebarMenu className="flex flex-col gap-2">
               {navigation.map((item) => {
@@ -51,7 +51,7 @@ export default function AppSidebar({ logo = "Portfolio." }) {
                   <SidebarMenuItem key={item.href}>
                     <Link
                       href={item.href}
-                      className={`relative flex items-center gap-3  px-4 py-3 transition-colors duration-200 ${
+                      className={`relative flex items-center gap-3  px-4 py-3.5 transition-colors duration-200${
                         isActive
                           ? "text-foreground font-semibold"
                           : "text-muted-foreground hover:bg-muted hover:text-foreground rounded-xl"
