@@ -20,7 +20,7 @@ export default function ProfileCard({
   const [isFollowing, setIsFollowing] = useState(false);
 
   return (
-    <div className="group relative shrink-0 w-[300px] h-[450px] rounded-[28px] bg-white border border-white/5 shadow-[-13px_20px_60px_0_rgba(0,0,0,0.1)] bg-white p-6 rounded-[1.875rem] overflow-visible transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5 hover:shadow-[0_24px_64px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.08)] mx-auto text-left rotate-[4.71deg] ml-25 mr-25">
+    <div className="group relative w-full max-w-[300px] min-h-[450px] rounded-[28px] bg-white border border-white/5 shadow-[-13px_20px_60px_0_rgba(0,0,0,0.1)] bg-white p-6 rounded-[1.875rem] overflow-visible transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5 hover:shadow-[0_24px_64px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.08)] mx-auto text-left rotate-[4.71deg]">
       {/* Photo wrapper — Default: ~55% height, Hover: 100% height */}
       <div className="absolute top-3 left-3 right-3 h-[280px] overflow-hidden border border-[#eaeaea] rounded-[17px] transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] group-hover:h-[calc(100%-24px)] group-hover:rounded-[18px]">
         <img
@@ -89,15 +89,15 @@ export default function ProfileCard({
         </div>
         <div className="items-center gap-1.5 transition-all duration-500 group-hover:opacity-0 group-hover:translate-y-4">
           <h1 className="flex gap-2 text-[#547688] tracking-tight leading-[1.2] pt-3 pb-2">
-            <LocationIcon className="w-5 h-5 shrink-0"/>
+            <LocationIcon className="w-5 h-5 shrink-0" />
             {lokasi}
           </h1>
           <h1 className="flex gap-2 text-[#547688] tracking-tight leading-[1.2] pt-3 pb-2 ">
-            <InstagramIcon className="w-5 h-5 shrink-0"/>
+            <InstagramIcon className="w-5 h-5 shrink-0" />
             {instagram}
           </h1>
           <h1 className="flex gap-2 text-[#547688] tracking-tight leading-[1.2] pt-3 pb-2">
-            <EmailIcon className="w-5 h-5 shrink-0"/>
+            <EmailIcon className="w-5 h-5 shrink-0" />
             {email}
           </h1>
         </div>

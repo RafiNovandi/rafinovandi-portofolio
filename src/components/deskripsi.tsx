@@ -11,9 +11,9 @@ export default function DeskripsiProfile() {
           </h1>
         </div>
       </div>
-      <div className="w-[650px] leading-6">
-        My full name is Muhammad Rafi Novandi. People usually call me Rafi. I am 18
-        years old and I was born in Tasikmalaya, on 4 November 2005. I have
+      <div className="w-full max-w-[642px] leading-6">
+        My full name is Muhammad Rafi Novandi. People usually call me Rafi. I am
+        18 years old and I was born in Tasikmalaya, on 4 November 2005. I have
         lived in Tasikmalaya since childhood and now I have just graduated from
         SMA 5 Tasikmalaya City. My passion has been in the IT field since
         childhood.
