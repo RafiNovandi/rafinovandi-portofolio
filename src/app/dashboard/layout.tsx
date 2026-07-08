@@ -1,10 +1,5 @@
 import AppSidebar from "@/components/common/app-sidebar";
-import { Separator } from "@/components/ui/separator";
-import {
-  SidebarInset,
-  SidebarProvider,
-  SidebarTrigger,
-} from "@/components/ui/sidebar";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 
 export default function DashboardLayout({
   children,
@@ -14,6 +9,7 @@ export default function DashboardLayout({
   return (
     <SidebarProvider>
       <AppSidebar />
+      <main className="w-full flex-1">{children}</main>
     </SidebarProvider>
   );
 }
