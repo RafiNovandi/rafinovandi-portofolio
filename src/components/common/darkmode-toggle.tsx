@@ -16,7 +16,8 @@ export function DarkModeToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger
-        className={buttonVariants({ variant: "outline", size: "icon" })}
+        className={`${buttonVariants({ variant: "outline", size: "icon" })}
+        transition-all duration-200 bg-muted !border !border-[#E5E5E5]`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
