@@ -13,6 +13,7 @@ import {
 } from "../ui/sidebar";
 import { LayoutToggle } from "./layout-toggle";
 import { navigation } from "@/app/constants/navigation";
+import { DarkModeToggle } from "./darkmode-toggle";
 
 export default function AppSidebar({ logo = "Portfolio." }) {
   const pathname = usePathname();
@@ -26,7 +27,12 @@ export default function AppSidebar({ logo = "Portfolio." }) {
               <div className="w-1.75 height-[7px] rounded-full shadow-[0_0_8px_rgba(167,139,250,0.7)]" />
               {logo}
             </a>
-            <LayoutToggle />
+            <div className="flex">
+              {/* <div className="pr-2">
+              <DarkModeToggle />
+              </div> */}
+              <LayoutToggle />
+            </div>
           </SidebarMenuItem>
         </SidebarMenu>
       </SidebarHeader>
@@ -36,24 +42,30 @@ export default function AppSidebar({ logo = "Portfolio." }) {
             <SidebarMenu className="flex flex-col gap-2">
               {navigation.map((item) => {
                 const Icon = item.icon;
-                const isActive = item.href === "/dashboard"
-                  ? pathname === item.href
-                  : pathname?.startsWith(item.href);
+                const isActive =
+                  item.href === "/dashboard"
+                    ? pathname === item.href
+                    : pathname?.startsWith(item.href);
 
                 return (
                   <SidebarMenuItem key={item.href}>
                     <Link
                       href={item.href}
-                      className={`relative flex items-center gap-3  px-4 py-3 transition-colors duration-200 ${isActive
-                        ? "text-foreground font-semibold"
-                        : "text-muted-foreground hover:bg-muted hover:text-foreground"
-                        }`}
+                      className={`relative flex items-center gap-3  px-4 py-3 transition-colors duration-200 ${
+                        isActive
+                          ? "text-foreground font-semibold"
+                          : "text-muted-foreground hover:bg-muted hover:text-foreground rounded-xl"
+                      }`}
                     >
                       {isActive && (
                         <motion.div
                           layoutId="sidebar-pill"
                           className="absolute inset-0 rounded-xl bg-muted border border-border pointer-events-none"
-                          transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 380,
+                            damping: 30,
+                          }}
                         />
                       )}
                       <div className="relative flex items-center gap-3 z-10">
