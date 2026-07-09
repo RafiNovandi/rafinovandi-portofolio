@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { LayoutToggle } from "./layout-toggle";
+import { DarkModeToggle } from "./darkmode-toggle";
 
 interface NavLink {
   label: string;
@@ -128,6 +129,9 @@ export default function TopNavbar({
           })}
         </nav>
         <div className="hidden sm:flex">
+          <div className="pr-2">
+            <DarkModeToggle />
+          </div>
           <LayoutToggle />
         </div>
 

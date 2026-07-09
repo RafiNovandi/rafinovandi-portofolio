@@ -1,24 +1,21 @@
 "use client";
 
 import { useTheme } from "next-themes";
-
 import { buttonVariants } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 
 export function DarkModeToggle() {
-  const { setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger
-        className={`${buttonVariants({ variant: "outline", size: "icon" })}
-        transition-all duration-200 bg-muted !border !border-[#E5E5E5]`}
-      >
+    <button
+      type="button"
+      onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+      className={`
+        ${buttonVariants({ variant: "outline", size: "icon" })}
+        transition-all duration-200 bg-muted border! !border-[#E5E5E5] dark:!border-[#3C3C3C]
+      `}
+    >
+      {theme === "light" ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -41,7 +38,7 @@ export function DarkModeToggle() {
             </clipPath>
           </defs>
         </svg>
-
+      ) : (
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -60,17 +57,7 @@ export function DarkModeToggle() {
             </clipPath>
           </defs>
         </svg>
-        <span className="sr-only">Toggle theme</span>
-      </DropdownMenuTrigger>
-
-      <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => setTheme("light")}>
-          Light
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("dark")}>
-          Dark
-        </DropdownMenuItem>
-      </DropdownMenuContent>
-    </DropdownMenu>
+      )}
+    </button>
   );
 }

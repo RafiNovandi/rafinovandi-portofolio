@@ -12,7 +12,7 @@ export function LayoutToggle() {
       onClick={() => setLayout(layout === "sidebar" ? "topbar" : "sidebar")}
       className={`
         ${buttonVariants({ variant: "outline", size: "icon" })}
-        transition-all duration-200 bg-muted border! !border-[#E5E5E5]
+        transition-all duration-200 bg-muted border! !border-[#E5E5E5] dark:!border-[#3C3C3C]
       `}
     >
       {layout === "sidebar" ? (

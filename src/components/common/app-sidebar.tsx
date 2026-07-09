@@ -28,9 +28,9 @@ export default function AppSidebar({ logo = "Portfolio." }) {
               {logo}
             </a>
             <div className="flex">
-              {/* <div className="pr-2">
-              <DarkModeToggle />
-              </div> */}
+              <div className="pr-2">
+                <DarkModeToggle />
+              </div>
               <LayoutToggle />
             </div>
           </SidebarMenuItem>

@@ -20,7 +20,7 @@ export default function ProfileCard({
   const [isFollowing, setIsFollowing] = useState(false);
 
   return (
-    <div className="group relative w-full max-w-[300px] min-h-[450px] rounded-[28px] bg-white border border-white/5 shadow-[-13px_20px_60px_0_rgba(0,0,0,0.1)] bg-white p-6 rounded-[1.875rem] overflow-visible transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5 hover:shadow-[0_24px_64px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.08)] mx-auto text-left rotate-[4.71deg]">
+    <div className="group relative w-full max-w-[300px] min-h-[450px] rounded-[28px] bg-white border border-[#efefef] shadow-[-13px_20px_60px_0_rgba(0,0,0,0.1)] bg-white p-6 rounded-[1.875rem] overflow-visible transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5 hover:shadow-[0_24px_64px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.08)] mx-auto text-left rotate-[4.71deg]">
       {/* Photo wrapper — Default: ~55% height, Hover: 100% height */}
       <div className="absolute top-3 left-3 right-3 h-[280px] overflow-hidden border border-[#eaeaea] rounded-[17px] transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] group-hover:h-[calc(100%-24px)] group-hover:rounded-[18px]">
         <img
