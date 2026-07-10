@@ -128,10 +128,8 @@ export default function TopNavbar({
             );
           })}
         </nav>
-        <div className="hidden sm:flex">
-          <div className="pr-2">
-            <DarkModeToggle />
-          </div>
+        <div className="hidden sm:flex gap-2">
+          <DarkModeToggle />
           <LayoutToggle />
         </div>
 

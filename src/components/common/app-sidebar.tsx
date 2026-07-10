@@ -27,10 +27,8 @@ export default function AppSidebar({ logo = "Portfolio." }) {
               <div className="w-1.75 height-[7px] rounded-full shadow-[0_0_8px_rgba(167,139,250,0.7)]" />
               {logo}
             </a>
-            <div className="flex">
-              <div className="pr-2">
-                <DarkModeToggle />
-              </div>
+            <div className="flex gap-2">
+              <DarkModeToggle />
               <LayoutToggle />
             </div>
           </SidebarMenuItem>

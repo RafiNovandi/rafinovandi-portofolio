@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import profilePic from "../assets/images/profile.jpg";
+import profilePic from "@/assets/images/profile.jpg";
 import codeIcon from "@/assets/icons/codeIcon.svg";
 import imageIcon from "@/assets/icons/imageIcon.svg";
-import InstagramIcon from "./icons/instagram-icon";
-import EmailIcon from "./icons/email-icon";
-import LocationIcon from "./icons/location-icon";
+import InstagramIcon from "../icons/instagram-icon";
+import EmailIcon from "../icons/email-icon";
+import LocationIcon from "../icons/location-icon";
 
 interface ProfileCardProps {
   instagram?: string;
@@ -15,7 +15,7 @@ interface ProfileCardProps {
 export default function ProfileCard({
   instagram = "@rafinovandii",
   email = "mrafinovandi04@gmail.com",
-  lokasi = "Tasikmalaya, Indonesia",
+  lokasi = "Indonesia",
 }: ProfileCardProps) {
   const [isFollowing, setIsFollowing] = useState(false);
 
