@@ -28,7 +28,7 @@ export default function ProfileCard({
           alt="Profile"
           className="w-full h-full object-cover object-top block transition-transform duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]"
         />
-        <div className="absolute bottom-0 left-0 right-0 h-[165px] bg-gradient-to-b from-transparent to-[#d8d8db] opacity-0 transition-opacity duration-500 ease pointer-events-none group-hover:opacity-100" />
+        <div className="absolute bottom-0 left-0 right-0 h-[165px] bg-gradient-to-b from-transparent to-[#a9a9ab] opacity-0 transition-opacity duration-500 ease pointer-events-none group-hover:opacity-100" />
       </div>
 
       {/* Info — always pinned to bottom */}

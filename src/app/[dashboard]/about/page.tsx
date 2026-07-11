@@ -3,7 +3,6 @@
 import DeskripsiProfile from "@/components/about-component/deskripsi";
 import ProfileCard from "@/components/about-component/profile-card";
 import ShowSkills from "@/components/about-component/skils-component";
-import { main } from "motion/react-client";
 
 export default function AboutPage() {
   return (
@@ -12,7 +11,7 @@ export default function AboutPage() {
         <ProfileCard />
         <DeskripsiProfile />
       </div>
-      <div className="w-full h-[600px] bg-gray-100 flex justify-center">
+      <div className="w-full h-auto min-h-[400px] py-10 md:py-20 bg-gray-100 flex justify-center">
         <ShowSkills />
       </div>
     </main>
