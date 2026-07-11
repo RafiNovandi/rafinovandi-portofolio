@@ -15,7 +15,6 @@ export function DarkModeToggle() {
         transition-all duration-200 bg-muted border! !border-[#E5E5E5] dark:!border-[#3C3C3C]
       `}
     >
-      {theme === "light" ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -38,7 +37,6 @@ export function DarkModeToggle() {
             </clipPath>
           </defs>
         </svg>
-      ) : (
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -57,7 +55,6 @@ export function DarkModeToggle() {
             </clipPath>
           </defs>
         </svg>
-      )}
     </button>
   );
 }
