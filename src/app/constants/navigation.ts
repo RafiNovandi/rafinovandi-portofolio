@@ -10,12 +10,12 @@ export const navigation = [
   },
   {
     title: "About",
-    href: "/dashboard/about",
+    href: "/about",
     icon: AboutIcon,
   },
   {
     title: "Project",
-    href: "/dashboard/project",
+    href: "/project",
     icon: ProjectIcon,
   },
 ];
