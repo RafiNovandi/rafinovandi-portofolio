@@ -3,6 +3,7 @@ import githubIcon from "@/assets/icons/github.svg";
 import gitlabIcon from "@/assets/icons/gitlab.svg";
 import tailwindIcon from "@/assets/icons/tailwind.svg";
 import typescriptIcon from "@/assets/icons/typescript.svg";
+import angularIcon from "@/assets/icons/angular.svg";
 
 export const skill = [
   {
@@ -34,5 +35,41 @@ export const skill = [
     icon: typescriptIcon,
     bgColor: "#BFEBFF",
     textColor: "#0C2948",
+  },
+  {
+    title: "Angular",
+    icon: angularIcon,
+    bgColor: "#FBE2F6",
+    textColor: "#5E072A",
+  },
+  {
+    title: "Angular",
+    icon: angularIcon,
+    bgColor: "#FBE2F6",
+    textColor: "#5E072A",
+  },
+  {
+    title: "Angular",
+    icon: angularIcon,
+    bgColor: "#FBE2F6",
+    textColor: "#5E072A",
+  },
+  {
+    title: "Angular",
+    icon: angularIcon,
+    bgColor: "#FBE2F6",
+    textColor: "#5E072A",
+  },
+  {
+    title: "Angular",
+    icon: angularIcon,
+    bgColor: "#FBE2F6",
+    textColor: "#5E072A",
+  },
+  {
+    title: "Angular",
+    icon: angularIcon,
+    bgColor: "#FBE2F6",
+    textColor: "#5E072A",
   },
 ];

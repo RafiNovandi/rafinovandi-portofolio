@@ -11,7 +11,7 @@ export default function AboutPage() {
         <ProfileCard />
         <DeskripsiProfile />
       </div>
-      <div className="w-full h-auto min-h-[400px] py-10 md:py-20 bg-gray-100 flex justify-center">
+      <div className="w-full h-auto min-h-100 py-10 md:py-2 flex justify-center">
         <ShowSkills />
       </div>
     </main>
