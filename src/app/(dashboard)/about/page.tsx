@@ -7,7 +7,7 @@ import ShowSkills from "@/components/about-component/skils-component";
 export default function AboutPage() {
   return (
     <main>
-      <div className="mx-auto m-40 flex flex-wrap items-center justify-center px-6 lg:flex-nowrap">
+      <div className="mx-auto m-40 flex flex-wrap items-center justify-center px-6 lg:flex-nowrap gap-20">
         <ProfileCard />
         <DeskripsiProfile />
       </div>

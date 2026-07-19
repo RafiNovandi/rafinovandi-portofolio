@@ -60,11 +60,11 @@ export default function ShowSkills() {
         <h1 className="text-3xl font-bold">Skills</h1>
         <h3 className="text-gray-400">My professional skills.</h3>
       </div>
-      <div className="flex flex-wrap gap-2.5 py-5 px-5 justify-center">
+      <div className="flex flex-wrap gap-3 py-5 px-5 justify-center">
         {skill.map((item, index) => (
           <div
             key={index}
-            className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-[15px] border duration-200 hover:scale-[1.08]"
+            className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-[15px] border duration-200 hover:-rotate-z-6 origin-left"
             style={{ backgroundColor: item.bgColor }}
           >
             <Image
