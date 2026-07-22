@@ -49,6 +49,7 @@ export default function AppSidebar({ logo = "Portfolio." }) {
                   <SidebarMenuItem key={item.href}>
                     <Link
                       href={item.href}
+                      onClick={() => window.scrollTo(0, 0)}
                       className={`relative flex items-center gap-3  px-4 py-3.5 transition-colors duration-200${
                         isActive
                           ? "text-foreground font-semibold"

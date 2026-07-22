@@ -62,6 +62,7 @@ export default function TopNavbar({
 
   const handleLink = (e: React.MouseEvent, link: NavLink) => {
     setMenuOpen(false);
+    window.scrollTo(0, 0);
     onLinkClick(link);
   };
 
