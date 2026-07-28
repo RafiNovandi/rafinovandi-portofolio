@@ -2,7 +2,7 @@
 
 import AppSidebar from "@/components/common/app-sidebar";
 import TopNavbar from "@/components/common/top-navbar";
-import { SidebarProvider } from "@/components/ui/sidebar";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { useLayout } from "@/app/context/layout-context";
 import Footer from "@/components/common/footer";
 
@@ -20,6 +20,7 @@ export default function DashboardLayout({
         <AppSidebar />
         <div className="flex min-h-screen w-full flex-col">
           <main className="flex-1">
+            <SidebarTrigger />
             {children}
             <Footer />
           </main>
