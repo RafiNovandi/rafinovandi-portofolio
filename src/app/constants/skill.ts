@@ -7,69 +7,54 @@ import angularIcon from "@/assets/icons/angular.svg";
 
 export const skill = [
   {
+    title: "HTML",
+    bgColor: "#FFFFFF",
+    textColor: "#000000",
+    isDashed: true,
+  },
+  {
+    title: "CSS",
+    bgColor: "#DAE2F4",
+    textColor: "#000000",
+  },
+  {
+    title: "SASS",
+    bgColor: "#FF789A",
+    textColor: "#FFFFFF",
+    rotation: "rotate-3"
+  },
+  {
+    title: "Tailwind CSS",
+    bgColor: "#D1E5F4",
+    textColor: "#000000",
+  },
+  {
+    title: "Javascript",
+    bgColor: "#FFFFFF",
+    textColor: "#000000",
+    isDashed: true,
+    rotation: "rotate-[-4deg]",
+  },
+  {
+    title: "TypeScript",
+    bgColor: "#56A1D8",
+    textColor: "#FFFFFF",
+  },
+  {
+    title: "Angular",
+    icon: angularIcon,
+    bgColor: "#FFE2E9",
+    textColor: "#000000",
+  },
+  {
     title: "Next.js",
-    icon: nextjsIcon,
     bgColor: "#FFFFFF",
     textColor: "#000000",
+    isDashed: true,
   },
   {
-    title: "Github",
-    icon: githubIcon,
-    bgColor: "#FFFFFF",
+    title: "Figma",
+    bgColor: "#ABDBDF",
     textColor: "#000000",
-  },
-  {
-    title: "Gitlab",
-    icon: gitlabIcon,
-    bgColor: "#FFCB9D",
-    textColor: "#741A0C",
-  },
-  {
-    title: "Tailwind",
-    icon: tailwindIcon,
-    bgColor: "#D8F2FD",
-    textColor: "#0A4965",
-  },
-  {
-    title: "Typescript",
-    icon: typescriptIcon,
-    bgColor: "#BFEBFF",
-    textColor: "#0C2948",
-  },
-  {
-    title: "Angular",
-    icon: angularIcon,
-    bgColor: "#FBE2F6",
-    textColor: "#5E072A",
-  },
-  {
-    title: "Angular",
-    icon: angularIcon,
-    bgColor: "#FBE2F6",
-    textColor: "#5E072A",
-  },
-  {
-    title: "Angular",
-    icon: angularIcon,
-    bgColor: "#FBE2F6",
-    textColor: "#5E072A",
-  },
-  {
-    title: "Angular",
-    icon: angularIcon,
-    bgColor: "#FBE2F6",
-    textColor: "#5E072A",
-  },
-  {
-    title: "Angular",
-    icon: angularIcon,
-    bgColor: "#FBE2F6",
-    textColor: "#5E072A",
-  },
-  {
-    title: "Angular",
-    icon: angularIcon,
-    bgColor: "#FBE2F6",
-    textColor: "#5E072A",
   },
 ];
