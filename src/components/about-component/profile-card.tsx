@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import profilePic from "@/assets/images/profile.jpg";
+import profilePic from "@/assets/images/foto-profile.jpg";
 import codeIcon from "@/assets/icons/codeIcon.svg";
 import imageIcon from "@/assets/icons/imageIcon.svg";
 import InstagramIcon from "../icons/instagram-icon";
@@ -17,18 +16,16 @@ export default function ProfileCard({
   email = "mrafinovandi04@gmail.com",
   lokasi = "Indonesia",
 }: ProfileCardProps) {
-  const [isFollowing, setIsFollowing] = useState(false);
-
   return (
-    <div className="group relative w-full max-w-75 min-h-112.5 border border-[#efefef] shadow-[-13px_20px_60px_0_rgba(0,0,0,0.1)] bg-white p-6 rounded-[1.875rem] overflow-visible transition-all duration-400 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5 hover:shadow-[0_24px_64px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.08)] text-left rotate-[4.71deg] mx-22">
+    <div className="group relative w-full max-w-75 min-h-112.5 border border-[#efefef] shadow-[-13px_20px_60px_0_rgba(0,0,0,0.1)] bg-white p-6 rounded-[1.875rem] overflow-visible transition-all duration-400 ease-in-out[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5 hover:shadow-[0_24px_64px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.08)] text-left rotate-[4.71deg] mx-22">
       {/* Photo wrapper — Default: ~55% height, Hover: 100% height */}
-      <div className="absolute top-3 left-3 right-3 h-[280px] overflow-hidden border border-[#eaeaea] rounded-[17px] transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] group-hover:h-[calc(100%-24px)] group-hover:rounded-[18px]">
+      <div className="absolute top-3 left-3 right-3 h-70 overflow-hidden border border-[#eaeaea] rounded-[17px] transition-all duration-500 ease-in-out[cubic-bezier(0.4,0,0.2,1)] group-hover:h-[calc(100%-24px)] group-hover:rounded-[18px]">
         <img
           src={profilePic.src}
           alt="Profile"
-          className="max-w-full h-full object-cover object-top block transition-transform duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]"
+          className="max-w-full h-full object-cover object-top block transition-transform duration-500 ease-in-out[cubic-bezier(0.4,0,0.2,1)]"
         />
-        <div className="absolute bottom-0 left-0 right-0 h-[165px] bg-gradient-to-b from-transparent to-[#a9a9ab] opacity-0 transition-opacity duration-500 ease pointer-events-none group-hover:opacity-100" />
+        <div className="absolute bottom-0 left-0 right-0 h-41.25 bg-linear-to-b from-transparent to-[#a9a9ab] opacity-0 transition-opacity duration-500 ease pointer-events-none group-hover:opacity-100" />
       </div>
 
       {/* Info — always pinned to bottom */}
@@ -37,15 +34,15 @@ export default function ProfileCard({
           className="
                   
                   absolute
-                  top-[-310px]
-                  right-[-80px]
+                  -top-77.5
+                  -right-20
                   flex
-                  h-[43px]
+                  h-10.75
                   w-full
-                  max-w-[135px]
+                  max-w-33.75
                   items-center
                   justify-center
-                  gap-[7px]
+                  gap-1.75
                   rounded-[12px]
                   bg-[#FFDBE4]
                   text-[#bf677b]
@@ -65,16 +62,16 @@ export default function ProfileCard({
           className="
                   absolute
                   bottom-35
-                  -left-[65px]
+                  -left-16.25
                   flex
-                  h-[90px]
+                  h-22.5
                   w-full
-                  max-w-[90px]
+                  max-w-22.5
                   items-center
                   justify-center
                   rounded-[20px]
                   bg-[#ABDBDF]
-                  rotate-[-6deg]
+                  -rotate-6
                   shadow-[-5px_4px_36.3px_-8px_rgba(0,0,0,0.1)]
                   transition-all
                   duration-300
@@ -85,7 +82,7 @@ export default function ProfileCard({
           <img
             src={codeIcon.src}
             alt="Code Icon"
-            className="w-full max-w-[55px]"
+            className="w-full max-w-13.75"
           />
         </div>
         <div className="items-center gap-1.5 transition-all duration-500 group-hover:opacity-0 group-hover:translate-y-4 overflow-hidden">
