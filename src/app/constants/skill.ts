@@ -21,7 +21,7 @@ export const skill = [
     title: "SASS",
     bgColor: "#FF789A",
     textColor: "#FFFFFF",
-    rotation: "rotate-3"
+    rotation: "rotate-3",
   },
   {
     title: "Tailwind CSS",
@@ -42,7 +42,6 @@ export const skill = [
   },
   {
     title: "Angular",
-    icon: angularIcon,
     bgColor: "#FFE2E9",
     textColor: "#000000",
   },

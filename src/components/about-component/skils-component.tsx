@@ -94,7 +94,7 @@ export default function ShowSkills() {
           (total {skill.length - 1} + 1)
         </h3>
       </div>
-      <div className="flex flex-wrap items-center gap-3 py-5 px-5 border border-[#DDD] rounded-2xl shadow-[-2px_7px_15px_0_rgba(0,0,0,0.07)]">
+      <div className="flex flex-wrap items-center gap-3 py-5 px-5 border border-[#DDD] dark:border-[#6f6f6f] rounded-2xl shadow-[-2px_7px_15px_0_rgba(0,0,0,0.07)]">
         {skill.map((item, index) => {
           const isFirstItem = index === 0;
           const isLastItem = index === skill.length - 1;
@@ -109,7 +109,7 @@ export default function ShowSkills() {
               )}
 
               <div
-                className={`flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl duration-200 hover:scale-[1.08] 
+                className={`flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl duration-200 hover:scale-[1.05] hover:rotate-0
                 ${item.isDashed ? "border border-dashed border-black" : "border border-transparent"}
                 ${item.rotation ? item.rotation : ""}
                 `}

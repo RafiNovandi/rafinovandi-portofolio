@@ -87,7 +87,7 @@ export default function TopNavbar({
       }
     >
       <div
-        className={`flex items-center justify-between gap-3 p-2.5 pl-5 rounded-xl pointer-events-auto transition-all duration-300 backdrop-blur-lg ${
+        className={`flex items-center justify-between gap-3 p-2.5 rounded-xl pointer-events-auto transition-all duration-300 backdrop-blur-lg ${
           scrolled
             ? "bg-background/70 border border-border shadow-[0_8px_40px_rgba(0,0,0,0.20),inset_0_1px_0_rgba(255,255,255,0.05)]"
             : "bg-background/90 border border-border backdrop-blur-[20px] shadow-[0_4px_24px_rgba(0,0,0,0.13),inset_0_1px_0_rgba(255,255,255,0.06)]"
