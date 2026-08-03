@@ -3,7 +3,7 @@ import ProfileBandHover from "./profile-band-hover";
 
 export default function DeskripsiMusic() {
   return (
-    <div className="w-full max-w-145 mt-10">
+    <div className="w-full max-w-145">
       <h1 className="text-3xl font-bold pb-5">
         <Highlighter action="custom-highlight" color="#FF789A">
           Music
