@@ -29,7 +29,7 @@ export default function AboutPage() {
       </div>
 
       <div className="mx-auto my-12 lg:my-70 flex flex-wrap items-center justify-center px-6 lg:flex-nowrap gap-40">
-        <div className="animate-cosmic absolute flex align-center bg-[#E4E4E4] items-center p-2 w-18 h-18 rounded-3xl -translate-x-120 translate-y-70 rotate-[-15deg] shadow-[-5px_18px_100px_rgba(0,0,0,0.15)]  blur-[1px] max-xl:hidden">
+        <div className="animate-cosmic absolute flex align-center bg-[#E4E4E4] items-center p-2 w-18 h-18 rounded-3xl -translate-x-155 translate-y-70 rotate-[-15deg] shadow-[-5px_18px_100px_rgba(0,0,0,0.15)]  blur-[1px] max-xl:hidden">
           <img
             className="w-full h-full rounded-xl border"
             src={SpotifyLogo.src}
@@ -37,10 +37,10 @@ export default function AboutPage() {
         </div>
         <DeskripsiMusic />
         <SpotifyCard />
-        <div className="animate-cosmic absolute flex align-center bg-black items-center p-2 w-20 h-20 rounded-3xl translate-x-40 -translate-y-70 rotate-[-5.204deg] shadow-[-5px_18px_100px_rgba(0,0,0,0.15)] blur-[3px] max-xl:hidden">
+        <div className="animate-cosmic absolute flex align-center bg-black items-center p-2 w-20 h-20 rounded-3xl translate-x-40 -translate-y-80 rotate-[-5.204deg] shadow-[-5px_18px_100px_rgba(0,0,0,0.15)] blur-[3px] max-xl:hidden">
           <img className="w-full h-full rounded-xl" src={SoundcloudLogo.src} />
         </div>
-        <div className="animate-cosmic absolute flex align-center bg-white items-center p-2 w-20 h-20 rounded-3xl translate-x-110 translate-y-90 rotate-[5.482deg] shadow-[-5px_18px_100px_rgba(0,0,0,0.15)]  blur-[2px] max-xl:hidden">
+        <div className="animate-cosmic absolute flex align-center bg-white items-center p-2 w-20 h-20 rounded-3xl translate-x-150 translate-y-100 rotate-[5.482deg] shadow-[-5px_18px_100px_rgba(0,0,0,0.15)]  blur-[2px] max-xl:hidden">
           <img className="w-full h-full" src={AppleMusicLogo.src} />
         </div>
       </div>
