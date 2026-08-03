@@ -12,7 +12,7 @@ export default function HobbyFotoCard() {
         src={iconLeft.src}
         alt="Icon Left"
       />
-      <div className="absolute h-80 w-full max-w-80 rounded-4xl p-4 bg-white -rotate-13 -translate-x-50 translate-y-6 -z-1 max-md:max-w-60 max-md:h-60 max-md:p-3 max-[550px]:hidden drop-shadow-[0_25px_50px_rgba(0,0,0,0.10)]">
+      <div className="absolute h-80 w-full max-w-80 rounded-4xl p-4 bg-white -rotate-13 -translate-x-50 translate-y-6 drop-shadow-[0_25px_50px_rgba(0,0,0,0.10)] -z-1 max-md:max-w-60 max-md:h-60 max-md:p-3 max-[550px]:-translate-x-10">
         <img
           className="w-full h-full rounded-xl"
           src={mobilPic.src}
@@ -26,7 +26,7 @@ export default function HobbyFotoCard() {
           alt="Foto Kucing"
         />
       </div>
-      <div className="absolute h-80 w-full max-w-80 rounded-4xl p-4 rotate-13 bg-white translate-x-50 translate-y-6 max-md:max-w-60 max-md:h-60 max-md:p-3 max-[550px]:hidden drop-shadow-[0_25px_50px_rgba(0,0,0,0.10)]">
+      <div className="absolute h-80 w-full max-w-80 rounded-4xl p-4 rotate-13 bg-white translate-x-50 translate-y-6 drop-shadow-[0_25px_50px_rgba(0,0,0,0.10)] max-md:max-w-60 max-md:h-60 max-md:p-3 max-[550px]:translate-x-10 max-[550px]:-z-1 max-[550px]:translate-y-5 ">
         <img
           className="w-full h-full rounded-xl"
           src={rumahPic.src}
