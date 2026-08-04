@@ -55,7 +55,7 @@ export default function ProfileBandHover() {
 
     /// versi lebih kecil
     <div className="flex flex-wrap gap-3 justify-center items-center">
-      <div className="group flex flex-col items-center duration-300 w-12 h-12 rounded-lg bg-white hover:p-0.75 hover:scale-[3] hover:shadow-[0_2px_12.8px_0_rgba(0,0,0,0.10)]">
+      <div className="group flex flex-col items-center duration-300 w-12 h-12 rounded-xl hover:rounded-lg bg-white hover:p-0.75 hover:scale-[3] hover:shadow-[0_2px_12.8px_0_rgba(0,0,0,0.10)]">
         <div className="absolute -translate-y-1.5 text-center w-5 rounded-[3px] justify-center bg-[#45ACB4] hidden group-hover:block">
           <h1 className="text-[0.4rem] text-white">Me!!</h1>
         </div>
@@ -66,7 +66,7 @@ export default function ProfileBandHover() {
         />
       </div>
       <div>-</div>
-      <div className="group flex flex-col items-center duration-300 w-12 h-12 rounded-lg bg-white hover:p-0.75 hover:scale-[3] hover:shadow-[0_2px_12.8px_0_rgba(0,0,0,0.10)]">
+      <div className="group flex flex-col items-center duration-300 w-12 h-12 rounded-xl hover:rounded-lg bg-white hover:p-0.75 hover:scale-[3] hover:shadow-[0_2px_12.8px_0_rgba(0,0,0,0.10)]">
         <div className="absolute -translate-y-1.5 text-center w-6 rounded-[3px] justify-center bg-[#3862B8] hidden group-hover:block">
           <h1 className="text-[0.4rem] text-white">Ilham</h1>
         </div>
@@ -77,7 +77,7 @@ export default function ProfileBandHover() {
         />
       </div>
       <div>-</div>
-      <div className="group flex flex-col items-center duration-300 w-12 h-12 rounded-lg bg-white hover:p-0.75 hover:scale-[3] hover:shadow-[0_2px_12.8px_0_rgba(0,0,0,0.10)]">
+      <div className="group flex flex-col items-center duration-300 w-12 h-12 rounded-xl hover:rounded-lg bg-white hover:p-0.75 hover:scale-[3] hover:shadow-[0_2px_12.8px_0_rgba(0,0,0,0.10)]">
         <div className="absolute -translate-y-1.5 text-center w-8.5 rounded-[3px] justify-center bg-[#ff6d91] hidden group-hover:block">
           <h1 className="text-[0.4rem] text-white">Rhenata</h1>
         </div>
@@ -88,7 +88,7 @@ export default function ProfileBandHover() {
         />
       </div>
       <div>-</div>
-      <div className="group flex flex-col items-center duration-300 w-12 h-12 rounded-lg bg-white hover:p-0.75 hover:scale-[3] hover:shadow-[0_2px_12.8px_0_rgba(0,0,0,0.10)]">
+      <div className="group flex flex-col items-center duration-300 w-12 h-12 rounded-xl hover:rounded-lg bg-white hover:p-0.75 hover:scale-[3] hover:shadow-[0_2px_12.8px_0_rgba(0,0,0,0.10)]">
         <div className="absolute -translate-y-1.5 text-center w-7 rounded-[3px] justify-center bg-[#947FEB] hidden group-hover:block">
           <h1 className="text-[0.4rem] text-white">Favian</h1>
         </div>

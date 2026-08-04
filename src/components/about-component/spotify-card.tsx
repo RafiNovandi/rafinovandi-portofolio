@@ -25,12 +25,12 @@ export default function SpotifyCard() {
         </CardHeader>
       </Card> */}
 
-      <div className="group border rounded-3xl w-fit shadow-[-16px_13px_40px_rgba(0,0,0,0.10)] rotate-[8.318deg] hover:scale-[1.05] duration-300 bg-white">
+      <div className="group border border-[#efefef] rounded-[1.600rem] w-fit shadow-[-16px_13px_40px_rgba(0,0,0,0.10)] rotate-[8.318deg] hover:scale-[1.05] duration-300 bg-white">
         <div className="absolute bg-[#3862B8] w-28 p-1.5 flex items-center flex-col rounded-2xl -translate-y-3 -translate-x-5 rotate-[-13deg] opacity-0 group-hover:opacity-100 duration-300">
           <h1 className="text-white">Press Me!!</h1>
         </div>
         <img
-          className="w-full max-w-70 h-auto p-3 rounded-3xl"
+          className="w-full max-w-70 h-auto p-3 rounded-[25px]"
           src={coverEP.src}
           alt="Foto Album"
         />
