@@ -1,8 +1,9 @@
 export default function DeskripsiProfile() {
   return (
     <div className="text-start justify-center w-auto h-auto relative m-2.5">
-      <div className="text-[#95a3c1] bg-[#e9ecf4] max-w-13.25 border-r border-[#95a3c1]">
+      <div className="text-[#7A98D6] bg-[#CDD9F0] max-w-[53.5px] border-r animate-pulse border-[#3862B8]">
         <h1>Hello!!</h1>
+        <div className="absolute h-1.5 w-1.5 bg-[#3862B8] rounded-full bottom-52.5 left-12.5 animate-pulse"></div>
       </div>
       <div>
         <div>
