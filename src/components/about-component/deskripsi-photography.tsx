@@ -2,7 +2,7 @@ export default function DeskripsiPhotography() {
   return (
     <div className="flex flex-col text-center justify-center w-full max-w-200 h-fit gap-4">
       <h1 className="text-center text-3xl font-bold">Film Photography</h1>
-      <h3 className="text-[#8F8F8F] text-center px-5">
+      <h3 className="text-description text-center px-5">
         I like film photography because I like the process of taking photos.
         Unlike digital photography, we can take as many photos as we want as
         long as our memory is not full. While with film photography, the photos

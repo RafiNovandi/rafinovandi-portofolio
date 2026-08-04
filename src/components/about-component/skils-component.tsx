@@ -85,12 +85,12 @@ export default function ShowSkills() {
     <div className="h-fit w-full max-w-162 mx-5 md:mx-0 mt-20">
       <div className="w-full text-center mb-10">
         <h1 className="text-3xl font-bold">My Top Skills</h1>
-        <h3 className="text-[#8F8F8F]">my profesional skill</h3>
+        <h3 className="text-description">my profesional skill</h3>
       </div>
 
       <div className="flex gap-1 mb-4">
         <h1 className="text-md font-bold">Skills</h1>
-        <h3 className="text-md text-[#8F8F8F]">
+        <h3 className="text-md text-description">
           (total {skill.length - 1} + 1)
         </h3>
       </div>

@@ -9,7 +9,7 @@ export default function DeskripsiMusic() {
           Music
         </Highlighter>
       </h1>
-      <h2 className="text-[#8F8F8F]">
+      <h2 className="text-description">
         My biggest passion outside of my daily routine is making music. My
         journey exploring music production started in 2019 and continues to this
         day. Currently, I am in a music group called{" "}
